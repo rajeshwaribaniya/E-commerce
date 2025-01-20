@@ -27,7 +27,7 @@ export default function Hero() {
             </div>
 
             {/* hero-latest-button */}
-            <div className="flex justify-center items-center gap-4 px-8 py-4 bg-[#d62929] hover:bg-[#b61616] active:bg-[#b61616] text-white rounded-full text-lg w-fit">
+            <div className="flex justify-center items-center gap-4 px-8 py-4 bg-[#d62929] hover:bg-[#b61616]  text-white rounded-full text-lg w-fit">
                 <div>Latest Collections</div>
                 <img src= {arrow_icon} alt="arrow-icon" />
             </div>
