@@ -25,8 +25,10 @@ export default function Navbar() {
 
         {/* nav-login-cart */}
         <div className="flex items-center gap-4 cursor-pointer">
+
             {/* <button className='active:text-[#d62929] hover:text-[#d62929]'>Login</button> */}
             {/* <button className='px-4 py-2 bg-[#d62929] hover:bg-[#b61616] active:bg-[#b61616] text-white rounded-md text-base'>Create account</button> */}
+            
             <Link to = '/login'><button className='px-6 py-3 bg-[#d62929] hover:bg-[#b61616] active:bg-[#b61616] text-white rounded-full text-base'>Get Started</button></Link>
 
             
