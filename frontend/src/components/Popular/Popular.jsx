@@ -8,7 +8,7 @@ export default function Popular() {
 
         {/* popular */}
         <div className="flex flex-col items-center gap-4 h-[90vh] w-full my-12 ">
-            <h1 className='  text-[#171717] text-5xl font-medium text-center'>POPULAR IN WOMEN</h1>
+            <h1 className='  text-[#171717] text-3xl font-medium text-center'>POPULAR IN WOMEN</h1>
             <hr className='w-48 border-t-4 border-[#252525]' />
 
             {/* popular items */}

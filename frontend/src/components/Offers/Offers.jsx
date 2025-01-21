@@ -5,7 +5,7 @@ export default function Offers() {
   return (
     <>
         {/* offers */}
-        <div className="w-5/6 h-fit flex mx-auto my-12 px-12 py-0 bg-[#FCE7FE] rounded-3xl gap-6">
+        <div className="w-5/6 h-[64vh] flex mx-auto my-12 px-12 py-0 bg-[#FCE7FE] rounded-3xl gap-6">
 
             {/* offers-left */}
             <div className="flex flex-1 flex-col justify-center gap-3 pl-12">
@@ -17,8 +17,8 @@ export default function Offers() {
             </div>
 
             {/* offers-right */}
-            <div className="flex flex-1 items-center justify-end pt-8">
-                <img src= {exclusive_image} alt="exclusive-image" />
+            <div className="flex flex-1 items-center justify-end ">
+                <img src= {exclusive_image} alt="exclusive-image" className= "h-[64vh]" />
             </div>
         </div>
     </>
