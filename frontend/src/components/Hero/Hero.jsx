@@ -37,6 +37,7 @@ export default function Hero() {
         <div className="flex flex-1 items-center justify-center">
             <img src={hero_image} alt="hero_image" className='w-[64%]' />
         </div>
+        
     </div>
   )
 }
